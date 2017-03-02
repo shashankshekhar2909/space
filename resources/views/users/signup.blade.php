@@ -1,9 +1,10 @@
 @extends('main-layout.master')
+@section('pg-name','Sign Up')
 @section('content')
 <div class="container">
 <h2>Sign Up</h2>
     <div class="row">
-        <div class="col-md-6"><i style="font-size:400px; color:teal" class="fa fa-user-plus fa-5x" aria-hidden="true"></i></div>
+        <div class="col-md-6"><i style="color:teal" class="fa fa-user-plus fa-5x" aria-hidden="true"></i></div>
         <div class="col-md-6">
             <div class="login-panel panel panel-default">
                 <div class="panel-heading">
