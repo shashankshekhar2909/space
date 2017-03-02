@@ -35,10 +35,10 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
     <div class="row">
       <div class="col-md-4 col-sm-6 footerleft ">
         <div class="logofooter"> Logo</div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-        <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
-        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
-        <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+        <p>Foot Text.</p>
+        <p><i class="fa fa-map-pin"></i> Address INDIA</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 **********</p>
+        <p><i class="fa fa-envelope"></i> E-mail : shashank.shekhar2k15@outlook.com</p>
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">GENERAL LINKS</h6>
