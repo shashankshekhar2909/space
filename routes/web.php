@@ -14,8 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/login',['uses'=>'UsersController@login']);
-Route::get('/users',['uses'=>'UsersController@index']);
-Route::get('/signup',['uses'=>'UsersController@signup']);
-Route::post('users',['uses'=>'UsersController@store']);
+Route::post('/store_user',['uses'=>'UsersController@store_user']);
+Auth::routes();
+Route::get('/home', 'HomeController@index');

@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Http\Requests;
+use App\User;
 class UsersController extends Controller
 {
     public function login()
@@ -12,6 +13,11 @@ class UsersController extends Controller
     }
     public function signup()
     {
-      return view('users.signup');
+      return view('users.register');
+    }
+    public function store_user(Request $request)
+    {
+      User::create($request->all());
+      return 'Going right';
     }
 }

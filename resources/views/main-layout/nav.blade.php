@@ -24,7 +24,7 @@
                     <a class="page-scroll" href="{{ url('/login') }}">Sign In</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{ url('/signup') }}">Sign Up</a>
+                    <a class="page-scroll" href="{{ url('/register') }}">Sign Up</a>
                 </li>
             </ul>
         </div>
