@@ -82,7 +82,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
         <li><a href="#">Blog</a></li>
         <li><a href="#">Faq's</a></li>
         <li><a href="{{ url('/login') }}">Sign In</a></li>
-        <li><a href="{{ url('/signup') }}">Sign Up</a></li>
+        <li><a href="{{ url('/register') }}">Sign Up</a></li>
       </ul>
     </div>
   </div>
